@@ -1,0 +1,12 @@
+server:
+  port: 8180
+  context-path: /demo
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/springbootdb?characterEncoding=utf-8&useSSL=false
+    password: root
+  jpa:
+    show-sql: false
